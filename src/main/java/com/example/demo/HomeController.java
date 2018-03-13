@@ -18,10 +18,10 @@ public class HomeController
         return "login";
     }
 
-    @RequestMapping("/admin")
-    public String admin()
+    @RequestMapping("/secure")
+    public String secure()
     {
-        return "admin";
+        return "secure";
     }
 
 }
